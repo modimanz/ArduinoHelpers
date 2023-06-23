@@ -1,4 +1,5 @@
 # ArduinoHelpers
+
 Arduino Helpers
 
 Some very basic concepts to help you get started.
@@ -26,3 +27,28 @@ Some very basic concepts to help you get started.
 
 8. __Power Management Class:__ In battery-powered applications, managing power consumption is critical. A class that controls power to different parts of your system could help extend battery life.
 
+
+9. __MotorControl:__ A class for controlling a motor, either a simple DC motor with a H-bridge, a stepper motor, or a servo motor.
+
+
+10. __Sensor:__ A class for reading from a sensor. You could create subclasses for different types of sensors, like a TemperatureSensor, HumiditySensor, LightSensor, etc.
+
+11. __Display:__ A class for controlling a display, like an LCD or OLED display. You could provide methods for writing text, drawing shapes, etc.
+
+
+## TODO
+
+
+Button: A class for handling a button press, with features for debouncing, detecting long press and double press events.
+
+Encoder: A class for reading from a rotary encoder, which can be used for precise control of motors or as an input device.
+
+WiFiManager: A class for managing WiFi connections, for boards that support WiFi.
+
+MQTTClient: A class for communicating with an MQTT broker, for IoT applications.
+
+SDCard: A class for reading and writing data to an SD card.
+
+RealTimeClock: A class for keeping track of the current date and time, using a real-time clock (RTC) module.
+
+GPS: A class for reading data from a GPS module.
